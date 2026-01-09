@@ -365,3 +365,64 @@ a {
 .popular .courseItem .bookBtn:hover {
   background: var(--primaryColor);
 }
+
+/* feedback */
+.feedback {
+  margin-top: 135px;
+  background: #2e2100;
+  padding: 96px 0;
+}
+.feedbackList {
+  display: flex;
+  overflow: hidden;
+}
+.feedbackItem {
+  display: flex;
+}
+.feedbackItem .avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.feedbackItem .info .memberName {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: var(--fontHeading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.42;
+}
+.feedbackItem .info .desc {
+  margin-top: 4px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 26px;
+}
+.feedbackItem .dots {
+  gap: 6px;
+  display: flex;
+  margin-top: 28px;
+}
+
+.feedbackItem .dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #634700;
+  cursor: pointer;
+}
+.feedbackItem .dot.active {
+  background: var(--primaryColor);
+  cursor: default;
+}
+.feedbackItem .content {
+  width: 66%;
+  margin-left: auto;
+}
+.feedbackItem blockquote {
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 1.54;
+}
